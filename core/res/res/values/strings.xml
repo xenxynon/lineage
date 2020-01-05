@@ -6434,4 +6434,8 @@ ul.</string>
     <string name="satellite_notification_open_message">Open Messages</string>
     <!-- Invoke Satellite setting activity of Settings -->
     <string name="satellite_notification_how_it_works">How it works</string>
+
+    <!-- Light / Regular style fonts -->
+    <java-symbol type="string" name="config_lightFontFamily" />
+    <java-symbol type="string" name="config_regularFontFamily" />
 </resources>
