@@ -6035,6 +6035,16 @@ public final class Settings {
         @Readable
         public static final String SIP_RECEIVE_CALLS = "sip_receive_calls";
 
+
+        /*
+         * Arcane Idle Manager
+         * @hide
+         */
+        @Readable
+        public static final String ARCANE_IDLE_MANAGER = "arcane_idle_manager";
+
+
+
         /**
          * Call Preference String.
          * "SIP_ALWAYS" : Always use SIP with network access
