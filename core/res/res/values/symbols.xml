@@ -5382,8 +5382,8 @@
     <java-symbol type="string" name="config_bodyFontFamily" />
     <java-symbol type="string" name="config_bodyFontFamilyMedium" />
 
-    <!-- Fingerprint from a certified device against current platform SPL level -->
-    <java-symbol type="string" name="config_certifiedFingerprint" />
+    <!-- PropImitationHooks -->
+    <java-symbol type="array" name="config_certifiedBuildProperties" />
     <!-- Fingerprint from stock ROM -->
     <java-symbol type="string" name="config_stockFingerprint" />
 
