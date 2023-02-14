@@ -5375,4 +5375,6 @@
   <java-symbol type="string" name="config_defaultContextualSearchKey" />
   <java-symbol type="string" name="config_defaultContextualSearchEnabled" />
   <java-symbol type="string" name="config_defaultContextualSearchLegacyEnabled" />
+    <!-- Whether to use Richtap vibration -->
+    <java-symbol type="bool" name="config_usesRichtapVibration" />
 </resources>
