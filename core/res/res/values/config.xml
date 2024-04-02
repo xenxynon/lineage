@@ -7016,5 +7016,6 @@
 
     <!-- Whether to spoof GMS as Pixel Tablet -->
     <bool name="config_spoofasTablet">false</bool>
-
+    <!-- Build fingerprint for PlayStore -->
+    <string name="config_finskyFingerprint" translatable="false">google/husky/husky:14/AP1A.240305.019.A1/11445699:user/release-keys</string>
 </resources>

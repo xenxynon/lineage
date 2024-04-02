@@ -5389,4 +5389,5 @@
     <java-symbol type="string" name="config_netflixSpoofModel" />
     <java-symbol type="bool" name="config_spoofGoogleApps" />
     <java-symbol type="bool" name="config_spoofasTablet" />
+    <java-symbol type="string" name="config_finskyFingerprint" />
 </resources>
