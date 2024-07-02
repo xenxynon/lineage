@@ -7010,12 +7010,6 @@
     <string name="config_stockFingerprint" translatable="false"></string>
     <!-- Device model (Build.MODEL) to spoof for netflix, if not empty -->
     <string name="config_netflixSpoofModel" translatable="false"></string>
-    <!-- Whether to spoof device as pixel for certain google apps, to
-         unlock pixel-exclusive features -->
-    <bool name="config_spoofGoogleApps">true</bool>
-
     <!-- Whether to spoof GMS as Pixel Tablet -->
     <bool name="config_spoofasTablet">false</bool>
-    <!-- Build fingerprint for PlayStore -->
-    <string name="config_finskyFingerprint" translatable="false">google/husky/husky:14/AP1A.240505.005/11677807:user/release-keys</string>
 </resources>
