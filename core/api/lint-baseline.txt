@@ -403,6 +403,10 @@ KotlinOperator: android.graphics.Matrix44#set(int, int, float):
     Method can be invoked with an indexing operator from Kotlin: `set` (this is usually desirable; just make sure it makes sense for this type of object)
 
 
+NoSettingsProvider: android.provider.Settings.System#ARCANE_IDLE_MANAGER:
+    New setting keys are not allowed (Field: ARCANE_IDLE_MANAGER); use getters/setters in relevant manager class
+
+
 RequiresPermission: android.accounts.AccountManager#getAccountsByTypeAndFeatures(String, String[], android.accounts.AccountManagerCallback<android.accounts.Account[]>, android.os.Handler):
     Method 'getAccountsByTypeAndFeatures' documentation mentions permissions without declaring @RequiresPermission
 RequiresPermission: android.accounts.AccountManager#hasFeatures(android.accounts.Account, String[], android.accounts.AccountManagerCallback<java.lang.Boolean>, android.os.Handler):
@@ -1461,7 +1465,6 @@ UnflaggedApi: android.graphics.text.PositionedGlyphs#getItalicOverride(int):
     New API must be flagged with @FlaggedApi: method android.graphics.text.PositionedGlyphs.getItalicOverride(int)
 UnflaggedApi: android.graphics.text.PositionedGlyphs#getWeightOverride(int):
     New API must be flagged with @FlaggedApi: method android.graphics.text.PositionedGlyphs.getWeightOverride(int)
-
 UnflaggedApi: android.hardware.camera2.ExtensionCaptureRequest:
     New API must be flagged with @FlaggedApi: class android.hardware.camera2.ExtensionCaptureRequest
 UnflaggedApi: android.hardware.camera2.ExtensionCaptureRequest#ExtensionCaptureRequest():
@@ -1510,6 +1513,8 @@ UnflaggedApi: android.os.UserManager#DISALLOW_NEAR_FIELD_COMMUNICATION_RADIO:
     New API must be flagged with @FlaggedApi: field android.os.UserManager.DISALLOW_NEAR_FIELD_COMMUNICATION_RADIO
 UnflaggedApi: android.provider.Settings#ACTION_CREDENTIAL_PROVIDER:
     New API must be flagged with @FlaggedApi: field android.provider.Settings.ACTION_CREDENTIAL_PROVIDER
+UnflaggedApi: android.provider.Settings.System#ARCANE_IDLE_MANAGER:
+    New API must be flagged with @FlaggedApi: field android.provider.Settings.System.ARCANE_IDLE_MANAGER
 UnflaggedApi: android.telecom.Call.Details#getId():
     New API must be flagged with @FlaggedApi: method android.telecom.Call.Details.getId()
 UnflaggedApi: android.telephony.PhoneNumberUtils#isWpsCallNumber(String):
